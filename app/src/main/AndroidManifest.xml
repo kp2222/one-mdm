@@ -36,16 +36,19 @@
         </activity>
 
         <receiver
-            android:name=".com.multunus.onemdm.heartbeats.Publisher"
+            android:name=".heartbeats.Publisher"
             android:enabled="true"
             android:exported="true" />
 
         <service
-            android:name=".com.multunus.onemdm.communication.GatewayService"
+            android:name=".communication.GatewayService"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name=".com.multunus.onemdm.communication.PublisherService"
+            android:name=".communication.PublisherService"
+            android:exported="false" />
+        <service
+            android:name=".RegistrationService"
             android:exported="false"></service>
     </application>
 

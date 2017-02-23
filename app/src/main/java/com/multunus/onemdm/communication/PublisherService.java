@@ -1,4 +1,4 @@
-package com.multunus.onemdm.com.multunus.onemdm.communication;
+package com.multunus.onemdm.communication;
 
 import android.app.IntentService;
 import android.content.ComponentName;

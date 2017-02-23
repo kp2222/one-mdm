@@ -4,7 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.multunus.onemdm.com.multunus.onemdm.communication.GatewayService;
+import com.multunus.onemdm.communication.GatewayService;
 
 public class BootCompleteReceiver extends BroadcastReceiver {
     public BootCompleteReceiver() {

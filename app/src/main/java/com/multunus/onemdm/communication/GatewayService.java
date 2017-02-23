@@ -1,4 +1,4 @@
-package com.multunus.onemdm.com.multunus.onemdm.communication;
+package com.multunus.onemdm.communication;
 
 import android.app.Service;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.multunus.onemdm.com.multunus.onemdm.heartbeats.Publisher;
+import com.multunus.onemdm.heartbeats.Publisher;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
 import org.eclipse.paho.client.mqttv3.IMqttActionListener;
